@@ -80,7 +80,7 @@ class SearchBar extends React.Component {
                     />
                 </div>
                 <div className="SearchBar-submit">
-                    <a onClick={this.handleSearch}>Let's Go</a>
+                    <button onClick={this.handleSearch}>Let's Go</button>
                 </div>
             </div>
         );
